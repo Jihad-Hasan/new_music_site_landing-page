@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1114px;
+}
+
+.gif-cover {
+    height: 835px;
+    background-image: url('../img/Picking\ up\ headphones.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.black_cover {
+    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0.81) 15.62%, rgba(24, 24, 24, 0) 88.02%);
+    ;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin: 0px 48px 0 0;
+}
+
+.nav-link {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 34px;
+    color: #AEAEAE;
+    transition: 0.1s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.btn-one {
+    width: 120px;
+    height: 43px;
+    border: 2px solid #FFBA38;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+}
+
+.btn-text {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFBA38;
+}
+
+.btn-one:hover {
+    background-color: #FFBA38;
+    color: #fff;
+}
+
+.header_section {
+    height: 74px;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    transition: 0.1s ease-in-out;
+}
+
+.header_section:hover {
+    background: #212121;
+}
+
+.hero-section {
+    height: auto;
+    padding-top: 379px;
+}
+
+.hero-section h1 {
+
+    width: 599px;
+    height: 114px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54.93px;
+    line-height: 57px;
+    color: #F0F0F0;
+}
+
+.vactor22 {
+    padding-top: 150px;
+}
+
+.why-us {
+    height: 712px;
+    padding-top: 133px;
+    background-color: #181818;
+}
+
+.why-us h2 {
+    width: 184px;
+    height: 49px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43.95px;
+    line-height: 49px;
+    color: #CCCCCC;
+    margin-bottom: 48px;
+}
+
+.card {
+    padding: 24px;
+    width: 256px;
+    height: 291px;
+    background: #212121;
+    border-radius: 20px;
+    margin: 0px 30px 0 0;
+}
+
+.card:hover {
+    background: #FFBA38;
+}
+
+.card:hover .card-desc h4 {
+    color: #000;
+}
+
+.card:hover .card-desc p {
+    color: #000;
+}
+
+.card,
+.card h4,
+.card p {
+    transition: 0.3s ease-in-out;
+}
+
+.card-desc h4 {
+    width: 138px;
+    height: 68px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.5px;
+    line-height: 34px;
+    color: #F0F0F0;
+    margin: 8px 0px;
+}
+
+.card-desc p {
+    width: 208px;
+    height: 98px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CCCCCC;
+    margin: 8px 0px;
+}
+
+.card .icon {
+    margin-bottom: 32px;
+}
+
+.svg-icon:hover {
+    background-image: url('../img/music.svg');
+}
+
+.sample {
+    height: 1035px;
+    background: #212121;
+    padding-top: 60px;
+}
+
+.sample h2 {
+    width: 184px;
+    height: 49px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43.95px;
+    line-height: 49px;
+    padding-bottom: 16px;
+    color: #CCCCCC;
+}
+
+.sample h4 {
+    width: 310px;
+    height: 37px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28.13px;
+    line-height: 37px;
+    color: #F0F0F0;
+    margin-bottom: 32px;
+}
+
+.music-card {
+    width: 540px;
+    height: 290px;
+    border-radius: 20px;
+    background: #181818;
+}
+
+.music-card img {
+    padding: 22px 24px;
+}
+
+.music-card p {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #AEAEAE;
+}
+
+.music-desc h5 {
+    margin-top: 36px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.5px;
+    line-height: 34px;
+    color: #F0F0F0;
+}
+
+.music-desc h5,
+.music-card p {
+
+    margin-bottom: 0;
+}
+
+.duration input {
+    position: relative;
+}
+
+.duration input::before {
+    content: '2.45';
+    position: absolute;
+    top: -7px;
+    left: -30px;
+    font-family: Hind;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: #F0F0F0;
+}
+.duration input::after {
+    content: '1.2';
+    position: absolute;
+    top: -7px;
+    right: -25px;
+    font-family: Hind;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: #F0F0F0;
+}
+.controler {
+    padding-top: 23px;
+}
+.controler svg {
+    margin-right: 25px;
+}
+@media (max-width: 575.98px) {
+    .container {
+        width: auto;
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section h1 {
+        width: auto;
+    }
+
+    .why-us {
+        height: auto;
+    }
+
+    .why-us h2 {
+        margin: 0 auto;
+    }
+
+    .card {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .container {
+        width: auto;
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1399.98px) {}
